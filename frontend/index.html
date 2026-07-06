@@ -1,11 +1,16 @@
-<HTML><!DOCTYPE html>
+<!DOCTYPE html>
+
+
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TaskBoard</title>
 </head>
+
+
 <body>
+
     <header>
         <h1>TaskBoard</h1>
         <p>Başlangıç görev takip uygulaması</p>
@@ -14,16 +19,87 @@
     <main>
         <section aria-labelledby="new-task-title">
             <h2 id="new-task-title">Yeni Görev</h2>
-            <form>
+
+            <form id="task-form">
                 <label for="task-title">Görev Başlığı</label>
-                <input id="task-title" name="title" required>
-                <button type="submit">Ekle</button>
+                <input
+                type="text"
+                id="task-title"
+                name="title"
+                placeholder="Görev başlığını giriniz"
+                maxlength="80"
+                required
+                >
+            <label for="priority">Öncelik</label>
+
+            <select id="priority" name="priority">
+                <option value="low">Düşük</option>
+                <option value="normal" selected>Normal</option>
+                <option value="high">Yüksek</option>
+            </select>
+
+            <label for="description">Görev açıklaması</label>
+            <textarea
+            id="description"
+            name="description"
+            rows="4"
+            placeholder="Görev hakkında bir açıklama yazınız"
+            ></textarea>
+
+                <button type="submit">görevi kaydet </button>
             </form>
+
+        
         </section>
+    
+
+    <section aria-labelledby="task-list-title">
+        <h2 id="task-list-title">Görev listesi</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Başlık</th>
+                    <th>Öncelik</th>
+                    <th>Durum</th>
+                    <th>Oluşturma Tarihi</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>HTML formlarını tamamla </td>
+                    <td>Yüksek </td>
+                    <td>Devam ediyor </td>
+                    <td>30.06.2026 </td>
+
+                </tr>
+
+                <tr>
+                    <td>README dosyasını güncelle </td>
+                    <td>Normal </td>
+                    <td>tamamlandı </td>
+                    <td>30.06.2026 </td>
+                </tr>
+
+                <tr>
+                    <td>GitHub Commit gönder </td>
+                    <td>düşük </td>
+                    <td>bekliyor </td>
+                    <td>30.06.2026 </td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </section>
+
     </main>
+
+
     <footer>
         <p>&copy; 2026 TaskBoard</p>
     </footer>
     
+
 </body>
-</html></HTML>
+</html>
