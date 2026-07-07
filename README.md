@@ -28,3 +28,12 @@ Projede Git ile sürüm kontrolü yapılmaktadır.
 - Forma örnek olarak üç görev kaydı eklendi.
 - `required`, `maxlength` ve `placeholder` özellikleri kullanılarak form doğrulaması geliştirildi.
 `label`, `id` ve `aria-labelledby` kullanılarak erişilebilirlik artırıldı.
+
+## Gün 3
+
+- CSS dosyası oluşturuldu.
+- HTML ile CSS bağlantısı kuruldu.
+- Form ve tablo tasarımı geliştirildi.
+- Flexbox kullanılarak kart yapısı oluşturuldu.
+- Buton tasarımı ve hover efekti eklendi.
+- CSS değişkenleri kullanılmaya başlandı.
