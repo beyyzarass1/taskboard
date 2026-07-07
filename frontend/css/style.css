@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
      --primary-color: #0078d4;
     --primary-hover: #005fa3;
@@ -73,4 +77,32 @@ button:hover {
 .container {
     display: flex;
     gap: 20px;
+}
+
+badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.high {
+    background-color: #dc3545;
+}
+
+.normal {
+    background-color: #ffc107;
+    color: black;
+}
+
+.low {
+    background-color: #198754;
+}
+
+tbody tr:hover {
+    background-color: #f8f9fa;
+
 }
