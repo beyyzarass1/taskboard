@@ -1,1 +1,2 @@
+Gün 1
 Bugün stajın ilk gününde geliştirme ortamını kurdum. TaskBoard projesinin klasör yapısını oluşturdum ve temel HTML sayfasını hazırladım. Semantik HTML etiketlerini kullanarak sayfa iskeletini oluşturdum. Git kurulumunu tamamladım ve ilk commit'lerimi attım. README dosyasını hazırladım. Bugün Git ve proje yapısı hakkında önemli bilgiler edindim.
