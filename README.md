@@ -58,3 +58,16 @@ Projede Git ile sürüm kontrolü yapılmaktadır.
 - Durum (Açık, Devam Ediyor, Tamamlandı) badge'leri eklendi.
 - Görev bulunmadığında gösterilecek `empty-state` bölümü oluşturuldu.
 - Kod yapısı düzenlenerek gereksiz etiketler temizlendi.
+
+
+## Gün 6
+
+- JavaScript dosyası (`app.js`) projeye eklendi.
+- Form elemanları `querySelector()` ile seçildi.
+- Formun `submit` olayı `addEventListener()` ile yönetildi.
+- `preventDefault()` kullanılarak sayfanın yenilenmesi engellendi.
+- Formdan girilen veriler `.value` ile okundu.
+- Yeni görevler tabloya dinamik olarak eklendi.
+- Form gönderildikten sonra alanlar temizlendi (`form.reset()`).
+- İmleç tekrar görev başlığı alanına getirildi (`focus()`).
+- KPI kartları (Toplam, Açık, Tamamlanan) JavaScript ile güncellenebilir hale getirildi.
