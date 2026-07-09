@@ -37,3 +37,24 @@ Projede Git ile sürüm kontrolü yapılmaktadır.
 - Flexbox kullanılarak kart yapısı oluşturuldu.
 - Buton tasarımı ve hover efekti eklendi.
 - CSS değişkenleri kullanılmaya başlandı.
+
+## Gün 4
+
+- Responsive tasarım eklendi.
+- CSS Grid kullanıldı.
+- KPI kartları oluşturuldu.
+- Mobile First yaklaşımı uygulandı.
+- Media Query kullanıldı.
+- Görev formu ve görev listesi iki kolon olacak şekilde düzenlendi.
+- Tablo responsive hale getirildi.
+
+## Gün 5
+
+- TaskBoard sayfası tek bir dashboard görünümüne dönüştürüldü.
+- KPI kartları son haline getirildi.
+- Yeni görev formu düzenlendi.
+- Görev listesi geliştirilerek toplam 5 örnek görev eklendi.
+- Öncelik (Yüksek, Normal, Düşük) badge yapısı güncellendi.
+- Durum (Açık, Devam Ediyor, Tamamlandı) badge'leri eklendi.
+- Görev bulunmadığında gösterilecek `empty-state` bölümü oluşturuldu.
+- Kod yapısı düzenlenerek gereksiz etiketler temizlendi.

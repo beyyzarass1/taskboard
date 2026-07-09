@@ -91,16 +91,37 @@ button:hover {
 
 }
 
-.high {
+.badge-high {
     background-color: #dc3545;
 }
 
-.normal {
+.badge-normal {
     background-color: #ffc107;
     color: black;
 }
 
-.low {
+.badge-low {
+    background-color: #198754;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.status-open {
+    background-color: #6c757d;
+}
+
+.status-progress {
+    background-color: #0d6efd;
+}
+
+.status-completed {
     background-color: #198754;
 }
 
