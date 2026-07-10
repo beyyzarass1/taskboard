@@ -82,6 +82,12 @@
     <section aria-labelledby="task-list-title">
         <h2 id="task-list-title">Görev listesi</h2>
 
+        <div class="filter-buttons">
+    <button type="button" id="filter-all">Tümü</button>
+    <button type="button" id="filter-open">Açık</button>
+    <button type="button" id="filter-completed">Tamamlanan</button>
+</div>
+
         <div class="table-wrapper">
 
         <table>
@@ -91,6 +97,7 @@
                     <th>Öncelik</th>
                     <th>Durum</th>
                     <th>Oluşturma Tarihi</th>
+                    <th>İşlem</th>
                 </tr>
             </thead>
 
@@ -114,8 +121,11 @@
                 <tr>
                     <td>GitHub Commit gönder </td>
                     <td> <span class="badge badge-low">Düşük</span></td>
-                    <td><span class="status-badge status-open">Açık</span> 
- </td>
+                    <td>
+    <span class="status-badge status-${task.status}">
+        ${task.status === "completed" ? "Tamamlandı" : "Açık"}
+    </span>
+</td>
                     <td>03.07.2026 </td>
                 </tr>
 

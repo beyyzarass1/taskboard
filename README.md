@@ -71,3 +71,13 @@ Projede Git ile sürüm kontrolü yapılmaktadır.
 - Form gönderildikten sonra alanlar temizlendi (`form.reset()`).
 - İmleç tekrar görev başlığı alanına getirildi (`focus()`).
 - KPI kartları (Toplam, Açık, Tamamlanan) JavaScript ile güncellenebilir hale getirildi.
+
+## Gün 7
+
+Görevleri tasks dizisinde yönetmeye başladım.
+createTask() ve renderTasks() fonksiyonlarını oluşturdum.
+Dashboard sayaçlarını dinamik hale getirdim.
+Tümü, Açık ve Tamamlanan filtrelerini ekledim.
+Tamamla butonu ile görev durumunu güncelleyip tabloyu yeniden render ettim.
+
+
