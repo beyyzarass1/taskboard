@@ -2,6 +2,34 @@ console.log("TaskBoard javaScript yüklendi.");
 
 let tasks = [];
 
+function saveTasks() {
+    localStorage.setItem("tasks", JSON.stringify(tasks));
+}
+
+function loadTasks() {
+    const raw = localStorage.getItem("tasks");
+
+    try {
+        tasks = raw ? JSON.parse(raw) : [];
+    } catch (error) {
+        console.error("Görev verileri okunamadı:", error);
+        tasks = [];
+    }
+
+    renderTasks(tasks);
+    updateDashboard();
+}
+
+async function loadSampleTasks() {
+    const response = await fetch("./data/tasks.json");
+
+    if (!response.ok) {
+        throw new Error("Örnek görevler yüklenemedi");
+    }
+
+    return await response.json();
+}
+
 function createTask(title, priority, description) {
     return {
         id: Date.now(),
@@ -27,6 +55,8 @@ console.log(taskTableBody);
 const totalTasksElement = document.querySelector("#total-tasks");
 const openTasksElement = document.querySelector("#open-tasks");
 const completedTasksElement = document.querySelector("#completed-tasks");
+
+const importTasksButton = document.querySelector("#import-tasks-button");
 
 const filterAllButton = document.querySelector("#filter-all");
 const filterOpenButton = document.querySelector("#filter-open");
@@ -95,6 +125,8 @@ console.log(newTask);
 
 tasks.push(newTask);
 
+saveTasks();
+
 console.log("tasks dizisi:",tasks);
 
 renderTasks(tasks);
@@ -150,8 +182,49 @@ taskTableBody.addEventListener("click", function (event) {
 
 task.status = "completed";
 
+saveTasks();
+
 renderTasks(tasks);
 
 updateDashboard();
 
 });
+
+importTasksButton.addEventListener("click", async function () {
+    try {
+        const sampleTasks = await loadSampleTasks();
+
+        const newTasks = sampleTasks.filter(function (sampleTask) {
+    return !tasks.some(function (task) {
+        return task.id === sampleTask.id;
+    });
+});
+
+if (newTasks.length === 0) {
+    alert("Yeni örnek görev bulunamadı.");
+    return;
+}
+
+        tasks = tasks.concat(newTasks);
+
+saveTasks();
+renderTasks(tasks);
+updateDashboard();
+
+alert(`${newTasks.length} örnek görev başarıyla eklendi.`);
+
+        console.log("İçeri aktarılan görevler:", sampleTasks);
+    } catch (error) {
+        console.error("Görevler içeri aktarılamadı:", error);
+    }
+});
+
+loadTasks();
+
+loadSampleTasks()
+    .then(function (sampleTasks) {
+        console.log("Örnek görevler:", sampleTasks);
+    })
+    .catch(function (error) {
+        console.error("Fetch hatası:", error);
+    });

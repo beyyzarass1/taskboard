@@ -80,4 +80,26 @@ Dashboard sayaçlarını dinamik hale getirdim.
 Tümü, Açık ve Tamamlanan filtrelerini ekledim.
 Tamamla butonu ile görev durumunu güncelleyip tabloyu yeniden render ettim.
 
+## Gün 8
+
+
+Görevleri `localStorage` üzerinde kalıcı hale getirdim.
+Sayfa açılırken görevleri otomatik yükledim.
+
+`try/catch` ile güvenli JSON okuma işlemi ekledim.
+
+`fetch()` ile `tasks.json` dosyasındaki örnek görevleri okudum.
+
+Örnek görevleri içeri aktarma özelliğini geliştirdim.
+
+Aynı görevlerin tekrar eklenmesini engelledim.
+
+Başarılı ve başarısız içeri aktarma işlemleri için mesajları ekledim.
+
+Tamamlanan görev durumunun sayfa yenilense bile korunmasını sağladım.
+
+
+
+
+
 

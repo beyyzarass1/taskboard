@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1001,
+        "title": "Fetch API kullanımını öğren",
+        "priority": "high",
+        "description": "JSON dosyasındaki görevleri fetch ile yükle.",
+        "status": "open",
+        "createdAt": "11.07.2026"
+    },
+    {
+        "id": 1002,
+        "title": "Async await mantığını öğren",
+        "priority": "normal",
+        "description": "Asenkron JavaScript yapısını incele.",
+        "status": "open",
+        "createdAt": "11.07.2026"
+    }
+]
