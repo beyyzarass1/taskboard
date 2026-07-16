@@ -1,0 +1,15 @@
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\bin\Debug\net8.0\TaskBoard.Console.exe
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\bin\Debug\net8.0\TaskBoard.Console.deps.json
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\bin\Debug\net8.0\TaskBoard.Console.runtimeconfig.json
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\bin\Debug\net8.0\TaskBoard.Console.dll
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\bin\Debug\net8.0\TaskBoard.Console.pdb
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\obj\Debug\net8.0\TaskBoard.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\obj\Debug\net8.0\TaskBoard.Console.AssemblyInfoInputs.cache
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\obj\Debug\net8.0\TaskBoard.Console.AssemblyInfo.cs
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\obj\Debug\net8.0\TaskBoard.Console.csproj.CoreCompileInputs.cache
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\obj\Debug\net8.0\TaskBoard.Console.sourcelink.json
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\obj\Debug\net8.0\TaskBoard.Console.dll
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\obj\Debug\net8.0\refint\TaskBoard.Console.dll
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\obj\Debug\net8.0\TaskBoard.Console.pdb
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\obj\Debug\net8.0\TaskBoard.Console.genruntimeconfig.cache
+C:\Users\arasb\OneDrive\Masaüstü\taskboard\backend\TaskBoard.Console\obj\Debug\net8.0\ref\TaskBoard.Console.dll
