@@ -98,6 +98,28 @@ Başarılı ve başarısız içeri aktarma işlemleri için mesajları ekledim.
 
 Tamamlanan görev durumunun sayfa yenilense bile korunmasını sağladım.
 
+## Gün 9
+
+Menü tabanlı konsol uygulaması oluşturuldu.
+
+Kullanıcıdan seçim alma yapısı geliştirildi.
+
+Yeni görev ekleme özelliği eklendi.
+
+Görevleri listeleme özelliği eklendi.
+
+Görevler numaralı olarak görüntülenmeye başlandı.
+
+Görev silme özelliği eklendi.
+
+List<string> kullanılarak görevler bellek üzerinde saklandı.
+
+int.TryParse() ile güvenli kullanıcı girişi doğrulaması yapıldı.
+
+
+
+
+
 
 
 
