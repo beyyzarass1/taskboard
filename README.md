@@ -117,6 +117,23 @@ List<string> kullanılarak görevler bellek üzerinde saklandı.
 int.TryParse() ile güvenli kullanıcı girişi doğrulaması yapıldı.
 
 
+## Gün 10
+
+- TaskItem modeli oluşturuldu.
+
+- TaskStatus enumu oluşturularak görev durumları tanımlandı.
+
+- TaskService sınıfı oluşturuldu ve görev yönetimi servis yapısına taşındı.
+
+- Görev ekleme, listeleme, silme ve tamamlandı olarak işaretleme işlemleri TaskService üzerinden gerçekleştirilecek şekilde düzenlendi.
+
+- Aynı başlıklı görevlerin eklenmesi engellendi.
+
+- Boş görev başlığı girilmesini önlemek için doğrulama eklendi.
+
+- Görevleri duruma göre filtrelemek için GetByStatus() metodu eklendi.
+
+
 
 
 
