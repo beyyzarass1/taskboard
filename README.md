@@ -133,6 +133,22 @@ int.TryParse() ile güvenli kullanıcı girişi doğrulaması yapıldı.
 
 - Görevleri duruma göre filtrelemek için GetByStatus() metodu eklendi.
 
+## Gün 11
+
+- ASP.NET Core MVC projesi oluşturuldu.
+
+- Solution (.sln) yapısı oluşturuldu.
+
+- TaskBoard.Web solution içerisine eklendi.
+
+- TaskItem modeli MVC projesine eklendi.
+
+- Controller üzerinden View'a model gönderildi.
+
+- Bootstrap tablo ile görev listesi oluşturuldu.
+
+- Layout sayfası düzenlendi.
+
 
 
 
