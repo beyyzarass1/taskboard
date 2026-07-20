@@ -150,6 +150,26 @@ int.TryParse() ile güvenli kullanıcı girişi doğrulaması yapıldı.
 - Layout sayfası düzenlendi.
 
 
+## Gün 12
+
+- CreateTaskViewModel oluşturuldu.
+
+- ViewModel içerisinde DataAnnotations kullanıldı.
+
+- Required ve StringLength doğrulamaları eklendi.
+
+- TasksController oluşturuldu.
+
+- GET ve POST Create Action'ları yazıldı.
+
+- Razor Form oluşturuldu.
+
+- asp-for ve asp-validation-for Tag Helper'ları kullanıldı.
+
+- ModelState ile server-side validation eklendi.
+
+- Navbar'a "Yeni Görev" bağlantısı eklendi.
+
 
 
 
