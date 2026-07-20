@@ -1,0 +1,29 @@
+﻿@model List<TaskBoard.Web.Models.TaskItem>
+
+@{
+    ViewData["Title"] = "TaskBoard";
+}
+
+<h1>TaskBoard</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Görev</th>
+            <th>Durum</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var task in Model)
+    {
+        <tr>
+            <td>@task.Id</td>
+            <td>@task.Title</td>
+            <td>
+                @(task.IsCompleted ? "Tamamlandı" : "Bekliyor")
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
