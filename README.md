@@ -170,6 +170,18 @@ int.TryParse() ile güvenli kullanıcı girişi doğrulaması yapıldı.
 
 - Navbar'a "Yeni Görev" bağlantısı eklendi.
 
+## Gün 13
+
+- ASP.NET Core Web API yapısı oluşturuldu.
+
+- GET, POST ve PATCH endpointleri geliştirildi.
+
+- API endpointleri PowerShell üzerinden test edildi.
+
+- GET endpointi başarıyla çalıştırıldı.
+
+- POST endpointinde 400 (Bad Request) hatası ile karşılaşıldı. Farklı yöntemler denenmesine rağmen sorun çözülemedi ve daha sonra tekrar incelenmek üzere not alındı.
+
 
 
 

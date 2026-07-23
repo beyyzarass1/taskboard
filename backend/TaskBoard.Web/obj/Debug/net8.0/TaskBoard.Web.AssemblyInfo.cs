@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskBoard.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8844d54c145bf59901253362db0c5ad6f2955098")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+494cc65045c52f7394d531fbbedb9d0c19d7ac90")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskBoard.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskBoard.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
